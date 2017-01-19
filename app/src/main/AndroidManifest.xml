@@ -1,0 +1,73 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.oraro.genealogy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <application
+        android:name=".GenealogyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher"
+        android:label="@string/app_name"
+        tools:replace="android:icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppBaseTheme">
+        <activity
+            android:name=".ui.activity.WelcomeActivity"
+            android:theme="@style/welcomeTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activity.LoginActivity"
+            android:theme="@style/AppBaseTheme" />
+
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:theme="@style/mainTheme">
+            <intent-filter>
+                <action android:name="com.oraro.genealogy.main" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.activity.ResetPasswordActivity"></activity>
+
+        <activity android:name=".ui.activity.LockSetupActivity">
+            <intent-filter>
+                <action android:name="com.oraro.genealogy.locksetup"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".ui.activity.LockActivity" />
+
+        <activity android:name=".ui.activity.InitiateVoteActivity"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan"/>
+
+        <activity android:name=".ui.activity.SettingsActivity"/>
+
+        <activity android:name=".ui.activity.RegisterActivity"/>
+
+        <activity android:name=".ui.activity.CameraActivity"/>
+
+        <activity android:name=".ui.activity.PersonalActivity"/>
+
+        <activity android:name=".ui.activity.VoteVerifyActivity"/>
+
+        <activity android:name=".ui.activity.VoteDetailActivity"/>
+
+        <activity android:name=".ui.activity.VoteGroupActivity"/>
+
+        <activity android:name=".ui.activity.InitiateCommonwealActivity"/>
+
+    </application>
+</manifest>

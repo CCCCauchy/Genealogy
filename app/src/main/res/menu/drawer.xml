@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/drawer_up">
+        <item
+            android:id="@+id/menu_preface"
+            android:checkable="true"
+            android:icon="@null"
+            android:title="@string/preface" />
+        <!--<item-->
+        <!--android:id="@+id/menu_family_o"-->
+        <!--android:checkable="true"-->
+        <!--android:icon="@null"-->
+        <!--android:title="@string/family_origin" />-->
+
+        <!--<item-->
+        <!--android:id="@+id/menu_family_table"-->
+        <!--android:checkable="true"-->
+        <!--android:icon="@null"-->
+        <!--android:title="@string/family_table" />-->
+        <!--<item-->
+        <!--android:id="@+id/menu_family_generation"-->
+        <!--android:checkable="true"-->
+        <!--android:icon="@null"-->
+        <!--android:title="@string/family_generation" />-->
+        <!--<item-->
+        <!--android:id="@+id/menu_family_cultrue"-->
+        <!--android:checkable="true"-->
+        <!--android:icon="@null"-->
+        <!--android:title="@string/family_cultrue" />-->
+        <!--<item-->
+        <!--android:id="@+id/menu_family_biography"-->
+        <!--android:checkable="true"-->
+        <!--android:icon="@null"-->
+        <!--android:title="@string/family_biography" />-->
+        <!--<item-->
+        <!--android:id="@+id/menu_family_image"-->
+        <!--android:checkable="true"-->
+        <!--android:icon="@null"-->
+        <!--android:title="@string/family_image" />-->
+        <!--<item-->
+        <!--android:id="@+id/menu_family_hall"-->
+        <!--android:checkable="true"-->
+        <!--android:icon="@null"-->
+        <!--android:title="@string/family_hall" />-->
+        <!--<item-->
+        <!--android:id="@+id/menu_family_smriti"-->
+        <!--android:checkable="true"-->
+        <!--android:icon="@null"-->
+        <!--android:title="@string/family_smriti" />-->
+        <!--<item-->
+        <!--android:id="@+id/menu_family_great_event"-->
+        <!--android:checkable="true"-->
+        <!--android:icon="@null"-->
+        <!--android:title="@string/family_great_event" />-->
+        <item
+            android:id="@+id/menu_family_decision"
+            android:checkable="true"
+            android:icon="@null"
+            android:title="@string/family_decision" />
+        <!--<item-->
+            <!--android:id="@+id/menu_family_business"-->
+            <!--android:checkable="true"-->
+            <!--android:icon="@null"-->
+            <!--android:title="@string/family_business" />-->
+        <item
+            android:id="@+id/menu_family_commonweal"
+            android:checkable="true"
+            android:icon="@null"
+            android:title="@string/family_commonweal" />
+        <!--<item-->
+        <!--android:id="@+id/menu_postscript"-->
+        <!--android:checkable="true"-->
+        <!--android:icon="@null"-->
+        <!--android:title="@string/postscript" />-->
+        <!--<item-->
+        <!--android:id="@+id/menu_family_merits"-->
+        <!--android:checkable="true"-->
+        <!--android:icon="@null"-->
+        <!--android:title="@string/family_merits" />-->
+
+
+    </group>
+
+    <group android:id="@+id/drawer_down">
+        <item
+            android:id="@+id/menu_settings"
+            android:checkable="true"
+            android:icon="@null"
+            android:title="@string/setting" />
+    </group>
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="primary">#c88d58</color>
+    <color name="darkPrimary">#1976D2</color>
+    <color name="accent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+    <color name="grey">#757575</color>
+    <color name="white">#fff</color>
+
+    <!-- swipe refresh color -->
+    <color name="swipe_refresh_first">#ff00ddff</color>
+    <color name="swipe_refresh_second">#ffffbb33</color>
+    <color name="swipe_refresh_third">#ffff4444</color>
+    <color name="swipe_refresh_four">#ffaa66cc</color>
+
+    <color name="light_refresh_progress_background">#FFFFFF</color>
+    <color name="light_list_item_background">#f2faf2</color>
+
+
+
+</resources>

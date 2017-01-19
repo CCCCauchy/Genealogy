@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/option_content_word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/option_add_photo"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_gravity="right|center_vertical"
+            android:src="@mipmap/camera" />
+    </FrameLayout>
+
+    <GridView
+        android:id="@+id/option_photo_gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="@dimen/activity_horizontal_margin"
+        android:numColumns="3"
+        android:verticalSpacing="@dimen/activity_horizontal_margin" />
+
+</LinearLayout>
